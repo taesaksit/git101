@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Login from './pages/Login'
 import FeatA from './pages/FeatA'
+import FeatB from './pages/FeatB'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Link to="/">Home</Link>
         <Link to="/login">Login</Link>
         <Link to="/feat_a"></Link>
+        <Link to="/feat_b"></Link>
       </nav>
 
       <hr />
@@ -22,6 +24,7 @@ function App() {
          <Route path="/" element={<Home />} />
          <Route path="/login" element={<Login />} />
          <Route path="/feat_a" element={<FeatA />} />
+         <Route path="/feat_b" element={<FeatB />} />
 
     </Routes>
     </>
